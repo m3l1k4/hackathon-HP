@@ -1,9 +1,30 @@
-.house{
+p {
+    font-family: cursive;
+    font-weight: 100;
+    color: yellow;
+}
+
+body{
+    background-color: black;
+   
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+.house {
     width: 800px;
     height: 900px;
+  //  background-image: url(/assets/background.jpeg);
+ //   background-size: cover;
+  
 
-    &__sigil{
-       
+
+    &__text {
+        color: white;
+        font-family: Tahoma;
+    }
+
+    &__sigil {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -11,5 +32,13 @@
         height: 50%;
     }
 
-    
+    &__button {
+        border: none;
+        background-color: black;
+
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        padding: 2%;
+    }
 }

@@ -104,21 +104,21 @@ function myHouse(houseName) {
     console.log(houseName);
 
     if (houseName == "Gryffindor") {
-        document.querySelector(".house_sigil").style.backgroundImage = "url('./assets/Gryffindor.png')";
+        document.querySelector(".house__sigil").style.backgroundImage = "url('./assets/Gryffindor.png')";
     }
 
     else if (houseName == "Hufflepuff") {
-        document.querySelector(".house_sigil").style.backgroundImage = "url('./assets/Hufflepuff.png')";
+        document.querySelector(".house__sigil").style.backgroundImage = "url('./assets/Hufflepuff.png')";
 
     }
 
     else if (houseName == "Slytherin") {
-        document.querySelector(".house_sigil").style.backgroundImage = "url('./assets/Slytherin.png')";
+        document.querySelector(".house__sigil").style.backgroundImage = "url('./assets/Slytherin.png')";
 
     }
 
     else if (houseName == "Ravenclaw") {
-        document.querySelector(".house_sigil").style.backgroundImage = "url('./assets/Ravenclaw.png')";
+        document.querySelector(".house__sigil").style.backgroundImage = "url('./assets/Ravenclaw.png')";
 
     }
 
