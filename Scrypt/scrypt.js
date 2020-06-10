@@ -1,23 +1,26 @@
+
 let apiKey = "$2a$10$fFLgx9jmgVkDfvD3XPaHo.z9shUBKZuhJWsCyOleSak2VfH1zMmve";
 
 getApi=() => {
-    axios.get("https://www.potterapi.com/v1/sortingHat")
+     axios.get("https://www.potterapi.com/v1/sortingHat")
     .then(response => {
         let house=response.data;
         document.querySelector(".house__title").innerHTML = house;
-   
+        myHouse(house);
     })
     
   
 };
 
-getApi();
+getApi(); 
+
+//document.querySelector(".house__title").innerHTML = "house";
 
 //myHouse();
 
-/*
-function myHouse(){
-   // houseName=
+function myHouse(houseName){
+  
+   console.log(houseName);
 
     if ( houseName=="Gryffindor"){
         document.querySelector(".house_sigil").style.backgroundImage= "url('./assets/Gryffindor.png')";
@@ -41,4 +44,3 @@ function myHouse(){
    
 
 };
-*/
