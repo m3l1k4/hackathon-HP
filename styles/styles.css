@@ -1,0 +1,13 @@
+.house {
+  width: 800px;
+  height: 900px;
+}
+
+.house_sigil {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+}
+/*# sourceMappingURL=styles.css.map */

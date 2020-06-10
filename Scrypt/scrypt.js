@@ -5,8 +5,33 @@ testFunction=() => {
     .then(response => {
         let house=response.data
         document.querySelector(".house__title").innerHTML = house
-    })
+    });
+    
+   
 };
 
 testFunction();
 
+
+
+function myHouse(houseName){
+
+    if ( houseName=="Gryffindor"){
+        document.querySelector(".house_sigil").style.backgroundImage= "url('./assets/Gryffindor.png')";
+    }
+
+    else if (houseName=="Hufflepuff"){
+
+    }
+
+    else if (houseName=="Slytherin"){
+
+    }
+
+    else if (houseName=="Ravenclaw"){
+
+    }
+
+   
+
+};
