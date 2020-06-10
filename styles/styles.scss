@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: 'Harry';
     src:url("/fonts/ParryHotter-LOZ.ttf");
@@ -19,6 +20,8 @@
 
 }
 
+   
+
 p {
     font-family: 'Harry';
     letter-spacing: 3px;
@@ -31,16 +34,20 @@ p {
 
 }
 
-html{
-    box-shadow: inset 0 0 0 1000px rgba(19.6, 19.6, 19.6, 0.5);
-}
+
 body{
     margin: 0;
     background-image: url("/assets/background.jpeg");
-
+box-shadow: inset 0 0 0 1000px rgba(19.6, 19.6, 19.6, 0.5);
 }
-.house {
 
+button:hover{
+    box-shadow: inset 0 0 0 1000px rgba(220, 220, 220, 0.20);
+    cursor: url('/assets/wand.png'), auto;
+}
+
+.house {
+ 
     margin: 0;
     padding: 0;
     display: flex;
@@ -78,11 +85,15 @@ body{
         border: none;
         background-color: black;
 
-        color: white;
+        color: #dcdcdc;
         border-radius: 4px;
+        font-size: 20px;
         font-weight: bold;
+        font-family: 'permarker';
         padding: 2%;
+        letter-spacing: 3px;
         margin-bottom: 2rem;
+        outline: none;
     }
 
 
@@ -90,5 +101,6 @@ body{
         display: flex;
         align-items: baseline;
         flex-wrap: wrap;
+
     }
 }
