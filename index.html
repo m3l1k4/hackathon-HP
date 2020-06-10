@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Harry Potter</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/styles.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Harry Potter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
 
-    <body>
-        
-        <div class="house">
-          <div class="house__sigil" ></div>  
-            <h2 class="house__title" id="house_title"></h2>
-           
-            <p class="house__text">Your mascont: </p>
-            <p class= "house__mascot"></p>
-            <p class="house__text">Your head: </p>
+<body>
+
+    <div class="house">
+        <div class="house__sigil"></div>
+        <h2 class="house__title" id="house_title"></h2>
+        <div class="house__body">
+            <p class="house__text">Mascont: </p>
+            <p class="house__mascot"></p>
+            <p class="house__text">Head of House: </p>
             <p class="house__head"></p>
-            <p class="house__text">Your ghost:</p>
+            <p class="house__text">The Ghost:</p>
             <p class="house__ghost"></p>
 
-            <button onclick="location.reload();" class="house__button">GET MY HOUSE</button>
-
         </div>
-      
+        <button onclick="location.reload();" class="house__button">GET MY HOUSE</button>
+
+    </div>
 
 
-       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
-        
-    </body>
-    <script src="./scrypt/scrypt.js" async defer></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+
+</body>
+<script src="./scrypt/scrypt.js" async defer></script>
+
 </html>
